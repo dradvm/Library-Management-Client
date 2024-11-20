@@ -4,7 +4,7 @@ import router from '../router'
 
 const createAxios = (route = "", contentType = 'application/json') => {
     const instance = axios.create({
-        baseURL: `/api${route}`,
+        baseURL: `https://library-management-server-hfms.onrender.com/api${route}`,
         timeout: 10000,
         headers: {
             'Content-Type': contentType
