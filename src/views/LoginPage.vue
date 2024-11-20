@@ -77,6 +77,21 @@
         <div class="mt-7">
           <MyButton size="small" @click="login">Đăng nhập</MyButton>
         </div>
+        <div class="flex justify-between mt-1">
+          <RouterLink
+            :to="{ name: 'HomePage' }"
+            class="text-indigo-500 text-xs font-medium cursor-pointer hover:text-indigo-700 transition"
+          >
+            Về trang chủ
+          </RouterLink>
+
+          <RouterLink
+            :to="{ name: 'LoginManagerPage' }"
+            class="text-indigo-500 text-xs font-medium cursor-pointer hover:text-indigo-700 transition"
+          >
+            Đăng nhập nhân viên
+          </RouterLink>
+        </div>
       </div>
       <div
         class="bg-gradient-to-b text-center text-white from-indigo-700 to-indigo-900 w-2/5 flex items-center justify-around"
