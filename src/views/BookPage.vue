@@ -93,16 +93,7 @@
                 <div>{{ sachSelected.tacGia }}</div>
               </div>
             </div>
-            <div class="mt-2 text-sm text-start">
-              <div class="flex">
-                <div class="font-semibold">Còn:</div>
-                <div class="ms-1">0</div>
-              </div>
-              <div class="flex">
-                <div class="font-semibold">Đã mượn:</div>
-                <div class="ms-1">10</div>
-              </div>
-            </div>
+            <div class="mt-2 text-sm text-start"></div>
             <MyButton size="small" class="mt-4">Xem thông tin</MyButton>
             <RouterLink
               :to="{
