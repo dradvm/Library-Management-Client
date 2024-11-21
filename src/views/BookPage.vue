@@ -174,6 +174,7 @@ const deleteSach = () => {
   sachService
     .deleteSach(sachSelected.value._id)
     .then((res) => {
+      sachSelected.value = null;
       myToast(res.data.message, "success");
       fetchDataSachs();
     })
