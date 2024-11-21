@@ -94,7 +94,7 @@
               </div>
             </div>
             <div class="mt-2 text-sm text-start"></div>
-            <MyButton size="small" class="mt-4">Xem thông tin</MyButton>
+            <!-- <MyButton size="small" class="mt-4">Xem thông tin</MyButton> -->
             <RouterLink
               :to="{
                 name: 'UpdateBookPage',
